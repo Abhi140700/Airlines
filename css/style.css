@@ -1,0 +1,82 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Barlow', sans-serif;
+    font-size: 17px;
+}
+
+body{
+    background-color: #FBF9F2;
+}
+
+.caro{
+    background: linear-gradient(rgba(34, 70, 128,.7),rgba(34, 70, 128,0.7));
+}
+
+.travel{
+    transition: 0.5s linear all;
+}
+
+.travel:hover{
+    transform: translateY(-10px);
+}
+
+.formContainer{
+    background: var(--bs-white);
+}
+
+.form-control , .form-select{
+    background-color: #f8f3e757 !important;
+    height: 70px !important;
+}
+
+.services{
+    background-color: var(--bs-white);
+    transition: 0.5s all linear;
+}
+
+.services:hover{
+    box-shadow: -4px 6px 12px #7d7d7db6;
+}
+
+.overlay{
+    background-color: #501031;
+    opacity: 0;
+    transition: 0.6s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+.cardDate , .cardEco{
+    color: #501031;
+}
+
+.brands{
+    background: linear-gradient(rgba(80, 16, 49,0.7),rgba(80, 16, 49,1)) , url(../img/slider_bg03.jpg) center/cover no-repeat !important;
+}
+
+.flightOption{
+    background-color: #ffffff;
+}
+
+footer{
+    background: #202630;
+}
+
+.footerLink a ,.icons{
+    transition: 0.4s all linear ;
+}
+
+.footerLink a:hover{
+    transform: translateX(13px);
+    color: #FFA902 !important;
+}
+
+.icons:hover{
+    transform: translatey(-10px);
+    color: #FFA902 !important;
+}
